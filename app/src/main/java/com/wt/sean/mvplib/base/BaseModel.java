@@ -1,4 +1,4 @@
-package com.wt.sean.mvplib;
+package com.wt.sean.mvplib.base;
 
 /**
 **  类名：BaseModel   创建目的： "model  基类"
