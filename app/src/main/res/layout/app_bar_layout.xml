@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+    <net.lucode.hackware.magicindicator.MagicIndicator
+        android:id="@+id/magic_indicator"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar_view"
+        android:layout_height="48dp"
+        android:paddingTop="5dp"
+        android:background="@color/white"/>
+
+</android.support.constraint.ConstraintLayout>
